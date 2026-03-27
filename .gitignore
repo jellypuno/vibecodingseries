@@ -1,0 +1,5 @@
+node_modules/
+.env
+dist/
+Episode1/src/config.ts
+Episode1/.env

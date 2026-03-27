@@ -1,6 +1,6 @@
 # Episode 1: Catfacts Mainframe Report Generator
 
-**Watch the video:** [Vibe Coding My Way to the Mainframe](https://medium.com/@jessielaine.punongbayan/01415c0b4f61)
+**Read my blog:** [Vibe Coding Your Way to the Mainframe](https://medium.com/@jessielaine.punongbayan/01415c0b4f61)
 
 This project demonstrates how to integrate a modern Node.js application with an IBM mainframe using Zowe API. It fetches cat facts from an external API, uploads them to the mainframe, and generates a formatted report using COBOL.
 

@@ -1,4 +1,4 @@
-# Episode 1: Catfacts Mainframe Report Generator
+# Catfacts Mainframe Report Generator
 
 **Read my blog:** [Vibe Coding Your Way to the Mainframe](https://medium.com/@jessielaine.punongbayan/01415c0b4f61)
 

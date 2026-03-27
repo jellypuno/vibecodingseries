@@ -57,6 +57,18 @@ Catfacts Mainframe Report Generator/
 
 3. Copy `src/config.ts.example` to `src/config.ts` and update with your dataset names
 
+4. Update the JCL files in `jcl/` with your user ID (replace `Z99999` with your mainframe user ID)
+
+### Update Your Mainframe User ID
+
+Replace `Z99999` (or `YOUR_USER`) with your mainframe user ID in these files:
+
+| File | Placeholder | Example |
+|------|-------------|---------|
+| `.env` | `your username` | `Z99999` |
+| `src/config.ts` | `YOUR_USER` | `Z99999` |
+| `jcl/*.jcl` | `Z99999` | `Z99999` |
+
 ## Usage
 
 ### Full Workflow
@@ -94,8 +106,8 @@ The project uses the following datasets (configurable in `src/config.ts`):
 
 | Dataset | Description |
 |---------|-------------|
-| `Z85304.CATFACTS.INPUT` | Input CSV with cat facts |
-| `Z85304.CATFACTS.REPORT` | Generated report output |
+| `Z99999.CATFACTS.INPUT` | Input CSV with cat facts (change `Z99999` to your user ID) |
+| `Z99999.CATFACTS.REPORT` | Generated report output (change `Z99999` to your user ID) |
 
 ## Notes
 

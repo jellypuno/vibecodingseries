@@ -9,7 +9,7 @@ In this episode, I used vibe coding to recreate the COBOL Challenge that I wrote
 
 **Read:** [Medium Blog](https://medium.com/@jessielaine.punongbayan/01415c0b4f61)
 
-**Code:** [Episode1/](Episode1/)
+**Code:** [Catfacts Mainframe Report Generator/](Catfacts Mainframe Report Generator/)
 
 ---
 

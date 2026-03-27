@@ -1,5 +1,5 @@
 node_modules/
 .env
 dist/
-Episode1/src/config.ts
-Episode1/.env
+Catfacts Mainframe Report Generator/src/config.ts
+Catfacts Mainframe Report Generator/.env

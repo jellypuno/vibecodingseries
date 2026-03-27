@@ -14,7 +14,7 @@ This project demonstrates how to integrate a modern Node.js application with an 
 ## Project Structure
 
 ```
-Episode1/
+Catfacts Mainframe Report Generator/
 ├── src/
 │   ├── index.ts           # Main entry point - extracts cat facts
 │   ├── submit-jcl.ts      # Submits JCL jobs to mainframe

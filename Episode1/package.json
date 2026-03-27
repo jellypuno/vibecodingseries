@@ -1,0 +1,29 @@
+{
+  "name": "episode1",
+  "version": "1.0.0",
+  "description": "Catfacts mainframe report generator",
+  "main": "dist/index.js",
+  "scripts": {
+    "extract": "ts-node src/index.ts",
+    "run-report": "ts-node src/submit-jcl.ts run-report",
+    "define": "ts-node src/submit-jcl.ts define",
+    "cleanup": "ts-node src/submit-jcl.ts cleanup",
+    "compile": "ts-node src/submit-jcl.ts compile"
+  },
+  "dependencies": {
+    "@zowe/cli": "^7.0.0",
+    "@zowe/imperative": "^5.0.0",
+    "@zowe/zos-files-for-zowe-sdk": "^7.0.0",
+    "@zowe/zos-jobs-for-zowe-sdk": "^7.0.0",
+    "@zowe/zos-uss-for-zowe-sdk": "^7.0.0",
+    "@zowe/zos-console-for-zowe-sdk": "^7.0.0",
+    "@zowe/zosmf-for-zowe-sdk": "^7.0.0",
+    "axios": "^1.6.0",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.0"
+  }
+}

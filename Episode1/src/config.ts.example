@@ -1,0 +1,13 @@
+/**
+ * Configuration file for mainframe datasets and paths.
+ * Copy this to config.ts and update with your mainframe values.
+ */
+
+export const DATASETS = {
+  INPUT: 'YOUR_USER.CATFACTS.INPUT',
+  REPORT: 'YOUR_USER.CATFACTS.REPORT'
+};
+
+export const MAINFRAME = {
+  USS_PATH: '/u/your_user/catfacts'
+};

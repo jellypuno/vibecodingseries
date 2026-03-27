@@ -1,7 +1,8 @@
 /**
  * Script to submit JCL jobs to the mainframe.
- * Supports three actions:
+ * Supports four actions:
  *   - define: Creates the datasets
+ *   - compile: Compiles the COBOL program
  *   - run-report: Runs the COBOL program
  *   - cleanup: Deletes temporary datasets
  */
